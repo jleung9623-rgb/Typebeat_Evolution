@@ -1,0 +1,38 @@
+# --- Python Artifacts ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# --- C Artifacts (V1 Chord Generator) ---
+*.o
+*.obj
+*.exe
+*.out
+*.app
+# If you compiled the C engine, ignore the resulting binary
+chord-engine
+
+# --- Environment & Secrets (Safety First) ---
+.env
+.env.local
+.env.*
+*.log
+secret_keys.py
+
+# --- IDE & Editor Specifics ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Operating System Junk ---
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
