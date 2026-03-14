@@ -1,0 +1,8 @@
+# 1. Security
+.env
+
+# 2. IDE & Tooling Junk
+*.session.sql
+
+# 3. Excluded Media
+Typebeat 7.0.png
